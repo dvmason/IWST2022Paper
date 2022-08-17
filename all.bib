@@ -1,0 +1,2066 @@
+@string{dls6="dls6"}
+@inproceedings{10.1145/1869631.1869634,
+crossref=dls6,
+author = {Zakirov, Salikh S. and Chiba, Shigeru and Shibayama, Etsuya},
+title = {Optimizing Dynamic Dispatch with Fine-Grained State Tracking},
+isbn = {9781450304054},
+url = {https://doi.org/10.1145/1869631.1869634},
+doi = {10.1145/1869631.1869634},
+abstract = {Dynamic mixin is a construct available in Ruby and other dynamic languages. It can be used as a base to implement a range of programming paradigms, such as dynamic aspect-oriented programming and context-oriented programming. However, the performance characteristics of current implementation of dynamic mixin in Ruby leaves much to be desired under condition of frequent dynamic mixin operations, global method cache and inline cache misses incur significant overhead. In this work we implemented fine-grained state tracking for CRuby 1. and were able to improve performance by more than six times on the microbenchmark exercising extreme case flowing 4 times to global method cache clearing, 28\% to fine-grained state tracking and further 12\% to inline cache miss elimination by caching alternating states. We demonstrated a small application using dynamic mixins that gets 48\% improvement in performance from our techniques. We also implemented in C a more general delegation object models and proposed an algorithm of thread-local caching, which allows to reduce inline cache misses while permitting thread-local delegation changes.},
+pages = {15–26},
+numpages = {12},
+keywords = {inline caching, polymorphic inline caching, dynamic method dispatch},
+}
+
+@proceedings{dls6,
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+title = {Proceedings of the 6th Symposium on Dynamic Languages},
+booktitle = {Proceedings of the 6th Symposium on Dynamic Languages},
+year = {2010},
+month=Oct,
+location = {Reno/Tahoe, Nevada, USA},
+series = {DLS '10}
+}
+@string{popl11="popl11"}
+@string{popl12="popl12"}
+@string{popl13="popl13"}
+@string{popl14="popl14"}
+@string{popl18="popl18"}
+@string{popl19="popl19"}
+@string{popl20="popl20"}
+@string{popl21="popl21"}
+@string{popl22="popl22"}
+@string{popl23="popl23"}
+@string{popl24="popl24"}
+@string{popl25="popl25"}
+@string{popl26="popl26"}
+@string{popl27="popl27"}
+@string{popl28="popl28"}
+@InProceedings{Tofte92,
+      author =       "Mads Tofte",
+      title =        "Principal Signatures for Higher-order Program
+                     Modules",
+      pages =        "189--199",
+      semno =        "D-119",
+      summary =      "A type discipline for higher-order program modules is
+                     presented. It is compatible with Standard ML's first
+                     order modules system, but allows functors to be
+                     parameterised on functors. Also, functors can yield
+                     functors as results.",
+      keywords =     "Standard ML, higher-order functors",
+      dartno =       "120",
+      crossref=popl19
+    }
+@InProceedings{leroy:95,
+      author =       "Xavier Leroy",
+      title =        "Applicative Functors and Fully Transparent
+                     Higher-Order Modules",
+      pages =        "142--153",
+      crossref =    popl22,
+    }
+
+@InProceedings{biswas:95,
+      author =       "Sandip K. Biswas",
+      title =        "Higher-Order Functors with Transparent Signatures",
+      pages =        "154--163",
+      crossref =    popl22,
+    }
+
+@inproceedings{wand:type,
+	crossref=popl12,
+	title="Embedding Type Structure in Semantics",
+	author="Mitchell Wand"
+   }
+
+@inproceedings{mishra:declaration,
+	crossref=popl12,
+	title="Declaration-free Type Checking",
+	author="Prateek Mishra and Uday S. Reddy"
+   }
+
+@inproceedings{cartwright:intervals,
+	crossref=popl12,
+	title="Types as Intervals",
+	author="Robert Cartwright"
+   }
+
+@inproceedings{mitchell:existential,
+	crossref=popl12,
+	title="Abstract Types have Existential Types",
+	author="John C. Mitchell and Gordon D. Plotkin"
+   }
+
+@inproceedings{futatsugi:obj2,
+	crossref=popl12,
+	title="Principles of {OBJ2}",
+	author="Kokichi Futatsugi and Joseph A. Goguen and Jean-Pierre
+Jouannaud and Jose Meseguer"
+   }
+
+@inproceedings{sannella:specification,
+	crossref=popl12,
+	title="Program Specification and development in standard {ML}",
+	author="Donals Sannella and Andrzej Tarlecki"
+   }
+
+@inproceedings{lamport:priority,
+	crossref=popl12,
+	title="What it means for a concurrent program to satisfy a
+specification: why no one has specified priority",
+	author="Leslie Lamport"
+   }
+
+@inproceedings{emerson:checking,
+	crossref=popl12,
+	title="Modalities for model checking: branching time strikes back",
+	author="E. Allen Emerson and Chin-Laung Lei"
+   }
+
+@inproceedings{chen:crystal-compilation,
+	crossref=popl13,
+	title="A parallel language and its compilation to
+multiprocessor machines or {VLSI}",
+	author="M. C. Chen"
+   }
+
+@InProceedings{lee:87,
+     crossref=popl14,
+     title =        "A Realistic Compiler Generator Based on High-Level
+                    Semantics",
+     author =       "Peter Lee and Uwe Pleban",
+     pages =        "284--295",
+   }
+
+@InProceedings{DuboisRouaixWeis95,
+  crossref=popl22,
+  author =       "Catherine Dubois and Fran\c{c}ois Rouaix and Pierre Weis",
+  title =        "Extensional polymorphism",
+}
+
+@inproceedings{Monniaux2001,
+  crossref=popl28,
+  title="An abstract Monte-Carlo method for the analysis of probabilistic programs",
+  author="David Monniaux",
+  pages="93--101",
+}
+
+@inproceedings{10.1145/99583.99621,
+crossref=popl18,
+author = {Aiken, Alex and Murphy, Brian},
+title = {Static Type Inference in a Dynamically Typed Language},
+isbn = {0897914198},
+url = {https://doi.org/10.1145/99583.99621},
+doi = {10.1145/99583.99621},
+pages = {279–290},
+numpages = {12},
+}
+
+@inproceedings{10.1145/174675.177847,
+crossref=popl21,
+author = {Aiken, Alexander and Wimmers, Edward L. and Lakshman, T. K.},
+title = {Soft Typing with Conditional Types},
+isbn = {0897916360},
+url = {https://doi.org/10.1145/174675.177847},
+doi = {10.1145/174675.177847},
+pages = {163–173},
+numpages = {11},
+}
+
+@inproceedings{10.1145/800017.800542,
+crossref=popl11,
+author = {Deutsch, L. Peter and Schiffman, Allan M.},
+title = {Efficient Implementation of the Smalltalk-80 System},
+isbn = {0897911253},
+url = {https://doi.org/10.1145/800017.800542},
+doi = {10.1145/800017.800542},
+abstract = {The Smalltalk-80* programming language includes dynamic storage allocation, full upward funargs, and universally polymorphic procedures; the Smalltalk-80 programming system features interactive execution with incremental compilation, and implementation portability. These features of modern programming systems are among the most difficult to implement efficiently, even individually. A new implementation of the Smalltalk-80 system, hosted on a small microprocessor-based computer, achieves high performance while retaining complete (object code) compatibility with existing implementations. This paper discusses the most significant optimization techniques developed over the course of the project, many of which are applicable to other languages. The key idea is to represent certain runtime state (both code and data) in more than one form, and to convert between forms when needed.},
+pages = {297–302},
+numpages = {6},
+}
+
+@proceedings{popl11,
+	title="Proceedings of the {$11^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$11^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+	year=1984,
+	month=Jan,
+        location = {Salt Lake City, Utah, USA},
+	series = {POPL '84}
+}
+@proceedings{popl12,
+	title="Proceedings of the {$12^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$12^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+	year=1985,
+	month=Jan,
+	series = {POPL '85}
+}
+
+@proceedings{popl13,
+	title="Proceedings of the {$13^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$13^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+	year=1986,
+	month=Jan,
+	series = {POPL '86}
+}
+@proceedings{popl14,
+	title="Proceedings of the {$14^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$14^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+        location ="Munich, Germany",
+	year=1987,
+	month=Jan,
+	series = {POPL '87}
+}
+@proceedings{popl18,
+	title="Proceedings of the {$18^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$18^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization={Association for Computing Machinery},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        month =        Jan,
+        year =         1991,
+        location = {Orlando, Florida, USA},
+        series = {POPL ’91},
+}
+@proceedings{popl19,
+	title="Proceedings of the {$19^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$19^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization={Association for Computing Machinery},
+        location =      "Albuquerque, New Mexico",
+	month =        Jan,
+	year =         1992,
+	series = {POPL '92}
+}
+@proceedings{popl21,
+	title="Proceedings of the {$21^{\rm nd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$21^{\rm nd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization={Association for Computing Machinery},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	location = {Portland, Oregon, USA},
+	series = {POPL ’94},
+	year =         1994,
+	month =        jan,
+}
+@proceedings{popl22,
+	title="Proceedings of the {$22^{\rm nd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$22^{\rm nd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization={Association for Computing Machinery},
+      location =      "San Francisco, California, USA",
+      year =         1995,
+      month =        jan,
+}
+@proceedings{popl23,
+	title="Proceedings of the {$23^{\rm rd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$23^{\rm rd}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "St. Petersburg Beach, Florida, USA",
+      year =         1996,
+      month =        jan,
+}
+@proceedings{popl24,
+	title="Proceedings of the {$24^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$24^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "Paris, France",
+      year =         1997,
+      month =        jan,
+}
+@proceedings{popl25,
+	title="Proceedings of the {$25^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$25^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "San Diego, CA, USA",
+      year =         1998,
+      month =        jan,
+}
+@proceedings{popl26,
+	title="Proceedings of the {$26^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$26^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "San Antonio, TX, USA",
+      year =         1999,
+      month =        jan,
+}
+@proceedings{popl27,
+	title="Proceedings of the {$27^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$27^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "Boston, MA, USA",
+      year =         2000,
+      month =        jan,
+}
+@proceedings{popl28,
+	title="Proceedings of the {$22^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$22^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "London, UK",
+      year =         2001,
+      month =        jan,
+}
+@proceedings{popl29,
+	title="Proceedings of the {$29^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	booktitle="Proceedings of the {$29^{\rm th}$ Annual ACM Symposium on Principles of Programming Languages}",
+	organization="{Association for Computing Machinery}",
+      address =      "Portland, Oregon, USA",
+      year =         2002,
+      month =        jan,
+}
+@InProceedings{10.1007/BFb0057013,
+author="H{\"o}lzle, Urs
+and Chambers, Craig
+and Ungar, David",
+editor="America, Pierre",
+title="Optimizing dynamically-typed object-oriented languages with polymorphic inline caches",
+booktitle="ECOOP'91 European Conference on Object-Oriented Programming",
+year="1991",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="21--38",
+abstract="Polymorphic inline caches (PICs) provide a new way to reduce the overhead of polymorphic message sends by extending inline caches to include more than one cached lookup result per call site. For a set of typical object-oriented SELF programs, PICs achieve a median speedup of 11{\%}.",
+isbn="978-3-540-47537-8"
+}
+@InProceedings{10.1007/11550679_1,
+author="Nierstrasz, Oscar
+and Bergel, Alexandre
+and Denker, Marcus
+and Ducasse, St{\'e}phane
+and G{\"a}lli, Markus
+and Wuyts, Roel",
+editor="Gschwind, Thomas
+and A{\ss}mann, Uwe
+and Nierstrasz, Oscar",
+title="On the Revival of Dynamic Languages",
+booktitle="Software Composition",
+year="2005",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="1--13",
+abstract="The programming languages of today are stuck in a deep rut that has developed over the past 50 years. Although we are faced with new challenges posed by enormous advances in hardware and internet technology, we continue to struggle with old-fashioned languages based on rigid, static, closed-world file-based views of programming. We argue the need for a new class of dynamic languages that support a view of programming as constant evolution of living and open software models. Such languages would require features such as dynamic first-class namespaces, explicit meta-models, optional, pluggable type systems, and incremental compilation of running software systems.",
+isbn="978-3-540-28749-0"
+}
+
+@InProceedings{10.1007/978-3-540-24851-4_3,
+author="Spoon, S. Alexander
+and Shivers, Olin",
+editor="Odersky, Martin",
+title="Demand-Driven Type Inference with Subgoal Pruning: Trading Precision for Scalability",
+booktitle="ECOOP 2004 -- Object-Oriented Programming",
+year="2004",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="51--74",
+abstract="After two decades of effort, type inference for dynamically typed languages scales to programs of a few tens of thousands of lines of code, but no further. For larger programs, this paper proposes using a kind of demand-driven analysis where the number of active goals is carefully restricted. To achieve this restriction, the algorithm occasionally prunes goals by giving them solutions that are trivially true and thus require no further subgoals to be solved; the previous subgoals of a newly pruned goal may often be discarded from consideration, reducing the total number of active goals. A specific algorithm DDP is described which uses this approach. An experiment on DDP shows that it infers precise types for roughly 30{\%} to 45{\%} of the variables in a program with hundreds of thousands of lines; the percentage varies with the choice of pruning threshold, a parameter of the algorithm. The time required varies from an average of one-tenth of one second per variable to an unknown maximum, again depending on the pruning threshold. These data suggest that 50 and 2000 are both good choices of pruning threshold, depending on whether speed or precision is more important.",
+isbn="978-3-540-24851-4"
+}
+
+@online{stevens:series-of-tubes,
+  author = {Wikipedia},
+  title = {Series Of Tubes},
+  url = {https://en.wikipedia.org/wiki/Series_of_tubes},
+  urldate = {2013-06-10},
+  lastaccessed = {2013-06-10}
+}
+@online{wikipedia:Inline-caching,
+  author = {Wikipedia},
+  title = {Inline caching},
+  url = {https://en.wikipedia.org/wiki/Inline_caching},
+  urldate = {2022-05-26},
+  lastaccessed = {2022-05-26}
+}
+@online{ieee-754,
+  author={Wikipedia},
+  title={IEEE-754},
+  url={https://en.wikipedia.org/wiki/IEEE_754},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{openqwaq-wiki,
+author={Wikipedia},
+title={OpenQwaq},
+url={https://en.wikipedia.org/wiki/OpenQwaq},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{maglev-wiki,
+author={Wikipedia},
+title={Maglev},
+url={https://en.wikipedia.org/wiki/MagLev_(software)},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@article{ophel:95,
+        author="Ophel, John",
+        title="A Polymorphic Language With First-Class Modules",
+        journal="Australian Computer Science Communications",
+        volume=17,
+        number=1,
+        month= Feb,
+        year= 1995,
+        pages= "422--430"
+}
+@article{uncol,
+	author="Steel, Jr., T. B.",
+	title="{UNCOL}: The myth and the fact",
+	journal="Annual Review in Automatic Programming",
+	volume=2,
+	pages={325-344},
+	year=1960
+}
+@Article{Wand83b,
+  author = 	"Wand, Mitchell",
+  title = 	"Loops in Combinator-Based Compilers",
+  journal = 	"Information ~and Control",
+  year = 	"1983",
+  volume = 	"57",
+  number = 	"2--3",
+  pages = 	"148--164",
+  month = 	"May/June",
+}
+
+@book{rms:gnu-c92,
+  author = "Richard Stallman",
+  title  = "Using and Porting GNU CC",
+  publisher = "Free Software Foundation",
+  year = 1992
+}
+@string{sigcomm96="sigcomm96"}
+@inproceedings{vanRenesse:masking,
+	crossref=sigcomm96,
+  author = 	"Robbert van Renesse",
+  title = 	"Masking the Overhead of Protocol Layering",
+   }
+@proceedings{sigcomm96,
+	title="Proceedings of the {ACM SIGCOMM'96 Conference}",
+	booktitle="Proceedings of the {ACM SIGCOMM'96 Conference}",
+	organization="{Association for Computing Machinery}",
+	year=1996,
+	month=aug
+}
+@string{plilp3="plilp3"}
+@inproceedings{appel&macqueen:SML/NJ,
+	crossref=plilp3,
+  author = 	"Andrew W. Appel and David B. MacQueen",
+  title = 	"{Standard ML of New Jersey}",
+  pages = "1--13",
+   }
+@proceedings{plilp3,
+	title="{Third International Symposium on Programming Language Implementation and Logic Programming}",
+	booktitle="{Third International Symposium on Programming Language Implementation and Logic Programming}",
+	publisher="{Springer-Verlag}",
+	volume="LNCS 528",
+	year=1991,
+	month=aug
+}
+
+@incollection{TRATT2009149,
+title = {Chapter 5 Dynamically Typed Languages},
+series = {Advances in Computers},
+publisher = {Elsevier},
+volume = {77},
+pages = {149-184},
+year = {2009},
+issn = {0065-2458},
+doi = {https://doi.org/10.1016/S0065-2458(09)01205-4},
+url = {https://www.sciencedirect.com/science/article/pii/S0065245809012054},
+author = {Laurence Tratt},
+abstract = {Dynamically typed languages such as Python and Ruby have experienced a rapid grown in popularity in recent times. However, there is much confusion as to what makes these languages interesting relative to statically typed languages, and little knowledge of their rich history. In this chapter, I explore the general topic of dynamically typed languages, how they differ from statically typed languages, their history, and their defining features.}
+}
+@online{TIOBE:index,
+  author = {TIOBE},
+  title = {TIOBE Index},
+  url = {https://www.tiobe.com/tiobe-index/},
+  urldate = {2022-05-27},
+  lastaccessed = {2022-05-27}
+}
+@online{Cincom-smalltalk,
+  author = {Cincom},
+  title = {Cincom {(VW) Smalltalk}},
+  url = {https://www.cincomsmalltalk.com/},
+  year={},
+  urldate = {2022-06-01},
+  lastaccessed = {2022-06-01}
+}
+@online{Instantiations-smalltalk,
+  author = {Instantiations},
+  title = {Instantiations {(VAST) Smalltalk}},
+  url = {https://www.instantiations.com/},
+  year={},
+  urldate = {2022-06-01},
+  lastaccessed = {2022-06-01}
+}
+@online{Gemtalk-smalltalk,
+  author = {Gemtalk},
+  title = {{GemStone/S}},
+  url = {https://gemtalksystems.com/},
+  year={},
+  urldate = {2022-06-01},
+  lastaccessed = {2022-06-01}
+}
+@online{ANSI-Smalltalk,
+  author={INCITS},
+  title={{ANSI Smalltalk Standard}},
+  url={https://webstore.ansi.org/Standards/INCITS/INCITS3191998S2012},
+  year=1998,
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{Pharo-Smalltalk,
+  author={Pharo},
+  title={{Pharo Smalltalk}},
+  url={https://pharo.org/},
+  year={},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{Squeak-Smalltalk,
+  author={Squeak},
+  title={{Squeak/Smalltalk}},
+  url={https://squeak.org/},
+  year={},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{Cuis-Smalltalk,
+  author={Cuis},
+  title={{Cuis Smalltalk}},
+  url={http://cuis-smalltalk.org/},
+  year={},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{stackoverflow-survey-2017,
+  author={StackOverflow},
+  title={2017 Most Loved Languages},
+  url={https://insights.stackoverflow.com/survey/2017#most-loved-dreaded-and-wanted},
+  year=2017,
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{Seaside-server,
+  author={Seaside},
+  title={Seaside Web Framework},
+  url={https://github.com/seasidest/seaside},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{opensmalltalk-github,
+  author={Elliot Miranda and  B\'{e}ra, Cl\'{e}ment },
+  title={{OpenSmalltalk VM on Github}},
+  url={https://github.com/OpenSmalltalk},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{spur-memory,
+  author={Elliot Miranda},
+  title={A Spur gear for Cog},
+  url={http://www.mirandabanda.org/cogblog/2013/09/05/a-spur-gear-for-cog/},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{zig-lang,
+  author={Zig Foundation},
+  title={Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software},
+  url={https://ziglang.org},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{gnu-st,
+  author={GNU Software Foundation},
+  title={{GNU Smalltalk}},
+  url={https://www.gnu.org/software/smalltalk/},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{pharojs,
+  author={Noury Bourqadi and Dave Mason},
+  title={PharoJS},
+  url={https://pharojs.org},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{nan-boxing-duperas,
+  author={Piotr Duperas},
+  title={NaN boxing or how to make the world dynamic},
+  url={https://piotrduperas.com/posts/nan-boxing},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@online{nan-boxing-nystrom,
+  author={Robert Nystrom},
+  title={NaN boxing},
+  url={https://craftinginterpreters.com/optimization.html#nan-boxing},
+  urldate={2022-06-01},
+  lastaccessed={2022-06-01},
+}
+@inproceedings{ElKishky2012ASA,
+  title={A Simulated Annealing Algorithm for Generating Minimal Perfect Hash Functions},
+  author={Ahmed El-Kishky and Stephen Macke},
+  year={2012}
+}
+@inproceedings{Botelho2004ANA,
+  title={A New Algorithm for Constructing Minimal Perfect Hash Functions},
+  author={Fabiano C. Botelho and D. Gomes and Nivio Ziviani},
+  year={2004}
+}
+@article{Pao2013DesignOA,
+  title={Design of a near-minimal dynamic perfect hash function on embedded device},
+  author={Derek Chi-Wai Pao and Xing Wang and Ziyan Lu},
+  journal={2013 15th International Conference on Advanced Communications Technology (ICACT)},
+  year={2013},
+  pages={457-462}
+}
+@online{FibHashing,
+author={Malte Skarupke},
+title={Fibonacci Hashing: The Optimization that the World Forgot (or: a Better Alternative to Integer Modulo)},
+url={https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/},
+urldate={2022-06-24},
+urldate={2022-06-24},
+year={2018},
+}
+@online{maglev-github,
+author={GitHub},
+title={Maglev},
+url={https://github.com/MagLev/maglev},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{ruby-lang,
+author={Yukihiro Matsumoto, et al.},
+title={Ruby language},
+url={https://www.ruby-lang.org/en/},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{python-lang,
+author={Guido van Rossum, et al.},
+title={Python},
+url={https://www.python.org/},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{newspeak-lang,
+author={Gilad Bracha, et al.},
+title={Newspeak},
+url={https://newspeaklanguage.org/},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{ecmascript-lang,
+author={ECMA},
+title={ECMAScript},
+url={https://www.ecma-international.org/publications-and-standards/standards/ecma-262/},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{rscheme,
+author={Donovan Kolby},
+title={rscheme},
+url={https://www.rscheme.org/rs/},
+urldate={2022-07-11},
+lastaccessed={2022-07-11},
+}
+@online{mist-smalltalk,
+author={Martin McClure},
+title={Mist Smalltalk},
+url={https://mist-project.org/},
+urldate={2022-08-11},
+lastaccessed={2022-08-11},
+}
+@String{ieee="Institute of Electrical and Electronic Engineers"}
+@Article{WALKER87,
+     key =          "Walker et al.",
+     author =       "J. H. Walker and D. A. Moon and D. L. Weinreb and M.
+                    McMahon",
+     title =        "The Symbolics Genera Programming Environment",
+     journal =      "Software",
+     publisher =    "ieee",
+     volume =       "4",
+     number =       "6",
+     month =        nov,
+     year =         "1987",
+     pages =        "36--45",
+     bibdate =      "Mon Nov 16 10:37:18 1987",
+     owner =        "manning",
+   }
+@Article{Tratt_Wuyts_2007,
+	title={Introduction [Dynamically typed languages: special ed.]},
+	publisher={IEEE},
+	author={Tratt, Laurence and Wuyts, Roel},
+        abstract={The languages discussed in this special issue have a long history, which is perhaps why some have had several different names over the years. One such language is Lisp, the second-oldest programming language. For years, many somewhat dismissively described languages such as Lisp as "scripting languages." Today, we more commonly refer to them as dynamically typed languages, typified by Python and Ruby, and their impact is arguably greater than ever. This issue highlights the practical uses of such languages and shows how they're frequently a vehicle for innovation in the development sphere. This article is part of a special issue on dynamically typed languages.},
+	year={2007},
+        journal="Software",
+	volume=24,
+        number=5,
+        pages="28-30",
+        month=Oct,
+        doi={10.1109/MS.2007.140},
+}
+
+@INPROCEEDINGS{Okon_Hanenberg_2016,
+	author={Okon, Sebastian and Hanenberg, Stefan},
+        booktitle={2016 IEEE 24th International Conference on Program Comprehension (ICPC)},
+        title={Can we enforce a benefit for dynamically typed languages in comparison to statically typed ones? A controlled experiment},
+        year={2016},
+        volume={},
+        number={},
+        pages={1-10},
+        doi={10.1109/ICPC.2016.7503719}
+}@inproceedings{squeakJS:dls2014,
+	Author = {Bert Freudenberg and Dan Ingalls and Tim Felgentreff and Tobias Pape and Robert Hirschfeld},
+	Booktitle = {Proceedings of the 10th Symposium on Dynamic Languages (DLS'14)},
+	Date-Added = {2016-06-10 14:27:01 +0000},
+	Date-Modified = {2016-06-10 14:31:44 +0000},
+	Title = {SqueakJS: A Modern and Practical Smalltalk That Runs in Any Browser},
+	Year = {2014}}
+
+@inproceedings{10.1145/1640134.1640145,
+author = {Pluquet, Fr\'{e}d\'{e}ric and Marot, Antoine and Wuyts, Roel},
+title = {Fast Type Reconstruction for Dynamically Typed Programming Languages},
+year = {2009},
+isbn = {9781605587691},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1640134.1640145},
+doi = {10.1145/1640134.1640145},
+booktitle = {Proceedings of the 5th Symposium on Dynamic Languages},
+pages = {69–78},
+numpages = {10},
+keywords = {dynamic programming languages, development environments, type inference, type reconstruction},
+location = {Orlando, Florida, USA},
+series = {DLS ’09}
+}
+
+@inproceedings{10.1145/1028976.1028988,
+author = {Sch\"{a}rli, Nathanael and Black, Andrew P. and Ducasse, St\'{e}phane},
+title = {Object-Oriented Encapsulation for Dynamically Typed Languages},
+year = {2004},
+isbn = {1581138318},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1028976.1028988},
+doi = {10.1145/1028976.1028988},
+booktitle = {Proceedings of the 19th Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+pages = {130–149},
+numpages = {20},
+keywords = {encapsulation policies, encapsulation, smalltalk, information hiding, dynamic typing},
+location = {Vancouver, BC, Canada},
+series = {OOPSLA ’04}
+}
+
+@inproceedings{10.1145/97945.97964,
+author = {Madsen, Ole Lehrmann and Magnusson, Boris and M\o{}lier-Pedersen, Birger},
+title = {Strong Typing of Object-Oriented Languages Revisited},
+year = {1990},
+isbn = {0897914112},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/97945.97964},
+doi = {10.1145/97945.97964},
+booktitle = {Proceedings of the European Conference on Object-Oriented Programming on Object-Oriented Programming Systems, Languages, and Applications},
+pages = {140–150},
+numpages = {11},
+location = {Ottawa, Canada},
+series = {OOPSLA/ECOOP ’90}
+}
+
+@inproceedings{10.1145/1408681.1408688,
+author = {Siek, Jeremy G. and Vachharajani, Manish},
+title = {Gradual Typing with Unification-Based Inference},
+year = {2008},
+isbn = {9781605582702},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1408681.1408688},
+doi = {10.1145/1408681.1408688},
+booktitle = {Proceedings of the 2008 Symposium on Dynamic Languages},
+articleno = {7},
+numpages = {12},
+keywords = {simply typed lambda calculus, static typing, unification, gradual typing, type inference, dynamic typing},
+location = {Paphos, Cyprus},
+series = {DLS ’08}
+}
+
+@inproceedings{10.1145/191080.191130,
+author = {Plevyak, John and Chien, Andrew A.},
+title = {Precise Concrete Type Inference for Object-Oriented Languages},
+year = {1994},
+isbn = {0897916883},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/191080.191130},
+doi = {10.1145/191080.191130},
+booktitle = {Proceedings of the Ninth Annual Conference on Object-Oriented Programming Systems, Language, and Applications},
+pages = {324–340},
+numpages = {17},
+location = {Portland, Oregon, USA},
+series = {OOPSLA ’94}
+}
+
+@inproceedings{10.1145/117954.117965,
+author = {Palsberg, Jens and Schwartzbach, Michael I.},
+title = {Object-Oriented Type Inference},
+year = {1991},
+isbn = {0201554178},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/117954.117965},
+doi = {10.1145/117954.117965},
+booktitle = {Conference Proceedings on Object-Oriented Programming Systems, Languages, and Applications},
+pages = {146–161},
+numpages = {16},
+location = {Phoenix, Arizona, USA},
+series = {OOPSLA ’91}
+}
+
+@inproceedings{10.1145/165854.165893,
+author = {Bracha, Gilad and Griswold, David},
+title = {Strongtalk: Typechecking Smalltalk in a Production Environment},
+year = {1993},
+isbn = {0897915879},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/165854.165893},
+doi = {10.1145/165854.165893},
+booktitle = {Proceedings of the Eighth Annual Conference on Object-Oriented Programming Systems, Languages, and Applications},
+pages = {215–230},
+numpages = {16},
+location = {Washington, D.C., USA},
+series = {OOPSLA ’93}
+}
+
+
+
+@inproceedings{staticWherePossible:oopsla1993,
+        title = {Static typing where possible, dynamic typing when needed: The end of the cold war between programming languages},
+	Author = {Eric Meijer and Peter Drayton},
+	Booktitle = {OOPSLA’04 Workshop on Revival of Dynamic Languages},
+	Date-Added = {2020-06-06 14:27:01 +0000},
+	Year = {2004},
+        }
+
+@INPROCEEDINGS{Bracha04pluggabletype,
+    author = {Gilad Bracha},
+    title = {Pluggable type systems},
+    booktitle = {In OOPSLA’04 Workshop on Revival of Dynamic Languages},
+    year = {2004}
+}
+@string{BC="Benjamin-Cummings"}
+@string{MH-addr="Toronto, Ontario"}
+@string{AW-addr="Don Mills, Ontario"}
+@string{PH-addr="Toronto, Ontario"}
+@string{USPH-addr="Englewood Cliffs, New Jersey"}
+@string{BC-addr="Don Mills, Ontario"}
+@string{AP-addr="London, U.K."}
+@string{W-addr="Toronto, Ontario"}
+@string{M-addr="London, U.K."}
+@string{SV-addr="New York, U.S.A."}
+@string{MIT-addr="Cambridge, Mass., U.S.A."}
+
+
+@Manual{ANSI:1983:MSA,
+  title =        "Military Standard {Ada} Programming Language",
+  organization = "American National Standards Institute",
+  address =      "1430 Broadway, New York, NY 10018, USA",
+  year =         "1983",
+  month =        feb # " 17",
+  note =         "Also MIL-STD-1815A.",
+  bibdate =      "Thu Aug 18 02:31:53 1994",
+}
+@Book{jacky:wayOfZ,
+        title="The Way of Z: Practical Programming with Formal Methods",
+        author="Jonathan Jacky",
+        year=1997,
+        address="New York",
+        publisher="Cambridge University Press",
+        ISBN="0-521-55976-6",
+}
+@Book{potter-sinclair-till:z,
+        title="An Introduction to Formal Specification and Z",
+        author="B. F. Potter and J. E. Sinclair and D. Till",
+        year=1996,
+        address="New York",
+        publisher="Prentice Hall",
+        ISBN="0-13-242207-7",
+        edition="2",
+}
+@Book{jsgb:java-spec,
+        title="The Java Language Specification, Second Edition",
+        author="Bill Joy and Guy Steele and James Gosling and Gilad Bracha",
+        year=2000,
+        address=AW-addr,
+        publisher="Addison-Wesley",
+        ISBN="0-201-31008-2",
+}
+@Book{degroot:prob-stats,
+	title="Probability and Statistics",
+	author="Morris DeGroot",
+	publisher="Addison-Wesley",
+	year=1989,
+	address=AW-addr,
+	ISBN="0-201-11366-X"
+}
+@Book{cd:distributed,
+	title="Distributed Systems -- Concepts and Design",
+	author="George F. Coulouris and Jean Dollimore",
+	publisher="Addison-Wesley",
+	year=1988,
+	address=AW-addr,
+	ISBN=""
+}
+@Book{halsall:datacomm,
+	title="Data Communications, Computer Networks and Open Systems",
+	author="Fred Halsall",
+	publisher="Addison-Wesley",
+	edition="third",
+	year=1992,
+	address=AW-addr,
+	ISBN="0-201-56506-4"
+}
+@Book{baase:algorithms,
+	author="S. Baase",
+	title="Computer Algorithms",
+	edition="second",
+	publisher="Addison-Wesley",
+	year=1988
+} 
+@Book{bg:networks,
+	author="Bertsekas, D. and Gallager, R.",
+	title="Data Networks",
+	publisher="Prentice Hall",
+	year= 1987
+}
+@Book{black:networks,
+	author="Black, U.",
+	title="Data Networks -- Concepts, Theory, and Practice",
+	publisher="Prentice Hall",
+	year=1989
+}
+ 
+@Book{campbell:c-comm,
+	author="Campbell, J.",
+	title="C Programmers Guide to Serial Communications",
+	publisher="Howard W. Sams {\&} Co.",
+	year= 1987
+}
+@Book{comer:tcp-1,
+	author="Comer, Douglas",
+	title="Internetworking with TCP/IP, Vol. I: Principles, Protocols, and Architecture",
+	publisher="Prentice Hall",
+	year= 1991
+}
+@Book{dl:discrete,
+	author="Doerr, A. and Levasseur, K.",
+	title="Applied Discrete Structures for Computer Science",
+	edition="second",
+	publisher="SRA",
+	year= 1989
+}
+@Book{housely:comm,
+	author="Housely, T.",
+	title="Computer Communications \& Teleprocessing Systems",
+	edition="second",
+	publisher="Prentice Hall",
+	year= 1987
+} 
+@Book{schwartz:analysis,
+	author="Mischa Schwartz",
+	title="Telecommunications Networks: Protocols, Modeling and Analysis",
+	publisher="Addison-Wesley",
+	year=1987,
+	ISBN="0-201-16423-X"
+}
+@Book{jc:ibm-pc,
+	author="Jordan, L. and Churchill, B.",
+	title="Communications and Networking for the IBM PC \& Compatables, Revised and Expanded",
+	publisher="Brady Books, Prentice Hall",
+	year=1987
+}
+
+@Book{madron:lans,
+	author="Madron, T.W.",
+	title="LANS, Application of IEEE/ANSI 802 Standards",
+	publisher="John Wiley",
+	year=1989
+}
+@Book{martin:telecom,
+	author="Martin, J.",
+	title="Telecommunications and the Computer",
+	edition="second",
+	publisher="Prentice Hall",
+	year=1976
+}
+@Book{purser:comm,
+	author="Purser, M.",
+	title="Data Communications for Programmers",
+	publisher="Addison-Wesley",
+	year=1986
+}
+
+@Book{sao:appletalk,
+	author="Sidhu, G.S. and Andrews, R.F. and Oppenheimer, A.B.",
+	title="Inside AppleTalk",
+	publisher="Addison-Wesley",
+	note="Apple Computer Inc.",
+	year=1989
+}
+
+@Book{smith:algorithms,
+	author="Smith, J.D.",
+	title="Design and Analysis of Algorithms",
+	publisher="PWS-Kent",
+	year=1989
+}
+
+@Book{stalling:comm,
+	author="Stallings, W.",
+	title="Data and Computer Communications",
+	edition="third",
+	publisher="Macmillan",
+	year=1991
+}
+
+@Book{stalling:isdn,
+	author="Stallings, W.",
+	title="ISDN An Introduction",
+	publisher="Macmillan",
+	year=1987
+}
+@Book{wood:theory,
+	author="Wood, D.",
+	title="Theory of Computation",
+	publisher="Harper and Row",
+	year=1987
+}
+@Book{tanenbaum:networks,
+	author="Tanenbaum, A. S.",
+	title="Computer Networks",
+	edition="second",
+	publisher="Prentice Hall",
+	year= 1989,
+	ISBN="0-13-162959-X"
+}
+@Inbook{lisp-mach,
+	title="The Lisp Machine",
+	author="Richard Greenblatt and Alan Bawden and Jack Holloway and Thomas Knight and David Moon and Daniel Weinreb",
+	booktitle="Artificial Intelligence: An MIT Perspective",
+	volume=2,
+	year=1979,
+	isbn="0-262-23097-6",
+	page="343--373"
+}
+@Inbook{lambda-goto,
+	title="Compiler Optimization Based on Viewing Lambda as Rename Plus Goto",
+	author="Guy L. {Steele Jr.}",
+	booktitle="Artificial Intelligence: An MIT Perspective",
+	volume=2,
+	year=1979,
+	isbn="0-262-23097-6",
+	page="397--431"
+}
+@Book{Smalltalk-80,
+	title="Smalltalk-80: The Language and its Implementation",
+	author="Adele Goldberg and David Robson",
+	year=1983,
+	publisher="Addison-Wesley",
+	address=AW-addr,
+	isbn="0-201-11371-6",
+	call="QA76.8.S635G64 1983",
+        url={https://rmod-files.lille.inria.fr/FreeBooks/BlueBook/Bluebook.pdf},
+}
+@book{10.5555/226,
+	author = {Krasner, Glenn},
+        title = {Smalltalk-80:  Bits of History, Words of Advice},
+        year = {1983},
+        isbn = {0201116693},
+        publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+        address = AW-addr,
+        url = {https://rmod-files.lille.inria.fr/FreeBooks/BitsOfHistory/BitsOfHistory.pdf},
+}
+@Book{DIANA,
+	editor="G. Goos and W. A. Wulf and A. Evans, Jr. and K. J. Butler",
+	title="{\hyphenation{DIANA}DIANA}: An Intermediate Language for {Ada}",
+	year=1983,
+	publisher="Springer-Verlag",
+	address=SV-addr,
+	ISBN="0-387-12695-3",
+	call="QA76.73.A16 D5x 1983"
+}
+@Book{Appel:compiling,
+	author="Andrew W. Appel",
+	title="Compiling with Continuations",
+	Publisher="Cambridge University Press",
+	Year=1992,
+	ISBN = "0-521-41695-7"
+}
+@Book{Appel:implementation-Java,
+	author="Andrew W. Appel",
+	title="Modern Compiler Implementation in Java",
+	Publisher="Cambridge University Press",
+	Year=1998,
+	ISBN = "0-521-58388-8"
+}
+@Book{Appel:implementation-C,
+	author="Andrew W. Appel",
+	title="Modern Compiler Implementation in C",
+	Publisher="Cambridge University Press",
+	Year=1998,
+	ISBN = "0-521-58390-X"
+}
+@Book{Appel:implementation-ML,
+	author="Andrew W. Appel",
+	title="Modern Compiler Implementation in ML",
+	Publisher="Cambridge University Press",
+	Year=1998,
+	ISBN = "0-521-58274-1"
+}
+@Book{Cox:oop,
+	author="Brad J. Cox",
+	title="Object Oriented Programming: An Evolutionary Approach",
+	Publisher="Addison-Wesley",
+	Address=AW-addr,
+	Year=1986,
+	ISBN = "0-201-10393-1"
+}
+@Book{cheriton:thoth,
+	author="David Cheriton",
+	title="The {Thoth} System: Multi-Process Structuring and Portability",
+	Publisher="American Elsevier",
+	Year=1982,
+	ISBN = ""
+}
+@Book{arch:multiprocessors,
+	author="Carl Hamacher and Zvonko Vranesic and Safwat Zaky",
+	title="Computer Organization",
+	Publisher="McGraw-Hill",
+	Year=1984,
+	Address=MH-addr,
+	ISBN = "0-07-0256837"
+}
+
+@Book{kamin:pl,Title="Programming Languages: An Interpreter-Based Approach",
+	Author="Samuel N. Kamin",
+	Publisher="Addison-Wesley", Year=1990, Address=AW-addr}
+
+@Book{ts:compiler,Title="The Theory and Practice of Compiler Writing",
+	Author="Jean-Paul Tremblay and  Paul G. Sorenson",
+	Publisher="McGraw-Hill", Year=1985, Address=MH-addr}
+
+@Book{fl:compiler,Title="Crafting a Compiler",
+	Author="Charles N. Fischer and LeBlanc, Jr., Richard J.",
+	Publisher="Benjamin/Cummings", Year=1988,Address=BC-addr}
+
+@Book{watson:compilers,Title="High-Level Languages and Their Compilers",
+	Author="Des Watson",
+	Publisher="Addison-Wesley", Year=1989, Address=AW-addr}
+
+@Book{asu:compiler,Title="Compilers: Principles, Techniques, and Tools",
+	Author="Alfred V. Aho and Ravi Sethi and Jeffrey D. Ullman",
+	Publisher="Addison-Wesley", Year=1985, Address=AW-addr}
+
+@Book{alsu:compiler,Title="Compilers: Principles, Techniques, and Tools",
+	Author="Alfred V. Aho and Monica S. Lam and Ravi Sethi and Jeffrey D. Ullman",
+	Publisher="Addison-Wesley", Year=2007, Address=AW-addr}
+
+@Book{gj:language,Title="Programming Language Concepts",
+	Author="C. Ghezzi and M. Jazayeri",
+	Publisher="John Wiley", Year=1982, Address=W-addr}
+
+@Book{sethi:languages,Title="Programming Languages: Concepts and Constructs",
+	Author="Ravi Sethi",
+	Publisher="Addison-Wesley", Year=1989, Address=AW-addr}
+
+@Book{iverson:apl,Title="A Programming Language",
+	Author="Ken Iverson",
+	Publisher="John Wiley", Year=1962, Address=W-addr}
+
+@Book{brown:interactive,Title="Writing Interactive Compilers and Interpreters",
+	Author="P. J. Brown",
+	Publisher="John Wiley", Year=1979, Address=W-addr}
+
+@Book{hunter:compilers,Title="COMPILERS Their Design and Construction Using Pascal",
+	Author="Robin Hunter",
+	Publisher="John Wiley", Year=1985, Address=W-addr}
+
+@Book{bornat:compilers,Title="Understanding and Writing Compilers",
+	Author="Richard Bornat",
+	Publisher="Macmillan", Year=1979, Address=M-addr}
+
+@Book{holt:mtunis,Title="The Concurrent Programming of Operating Systems using The Turing Plus Language",
+	Author="R. C. Holt and D. A. Penny", Publisher="unpublished", Year=1988}
+
+@Book{holt:coneuc,Title="Concurrent Euclid, Unix and Tunis",
+	Author="R. C. Holt", Publisher="Addison-Wesley", Year=1983,
+	Address=AW-addr}
+
+@Book{holt:turing,
+       author =       "Richard C. Holt and Philip A. Matthews and J. Alan
+                      Rosselet and James R. Cordy",
+       title =        "The {Turing} Programming Language. Design and
+                      Definition",
+       publisher =    "Prentice Hall",
+	address = PH-addr,
+       note =         "ISBN 0-13-933136-0",
+       year =         "1988",
+       keywords =     "PROGLANG, TURING",
+}
+
+
+@Book{ps:concepts,Title="Operating System Concepts",
+	Author="James L. Peterson and Abraham Silberschatz",
+	Publisher="Addison-Wesley", Year=1983,
+	Address=AW-addr}
+
+@Book{bourne:unix,Title="The Unix System V Environment",
+	Author="Steven R. Bourne", Publisher="Addison-Wesley", Year=1987,
+	Address=AW-addr}
+
+@Book{deitel:intro,Title="An Introduction to Operating Systems",
+	Author="H. Deitel", Publisher="Addison-Wesley", Year=1984,
+	Address=AW-addr}
+
+@Book{madnick:os,Title="Operating Systems",
+	Author="Madnick and Donovan", Publisher="McGraw-Hill", Year=1974,
+	Address=MH-addr}
+
+@Book{yuen:os,Title="Essential Concepts of Operating Systems Using IBM Mainframe Examples",
+	Author="C. K. Yuen", Publisher="Addison-Wesley", Year=1986,
+	Address=AW-addr}
+
+@Book{milenkovic:os,Title="Operating Systems: Concepts and Design",
+	Author="Milenkovic", Publisher="McGraw-Hill", Year=1987,
+	Address=MH-addr}
+
+@Manual{ada83,
+       author =       "{Ada Joint Program Office}",
+       title =        "Reference Manual for the {A}da Programming Language,
+                      {ANSI/MIL--STD--1815A}",
+       publisher =    "United States Department of Defense",
+       address =      "Washington, D.C.",
+	year =         1983,
+}
+
+@manual{att:svid,Title="System V Interface Definition",
+	Author="{AT\&T}", Year=1986,
+	isbn={0-932764-10-X},
+	Address="Indianapolis, Indiana"}
+
+@Manual{ibm:mvs,Title="OS/VS2 MVS Overview",note="(GC28-0984-1)",
+	year=1980,
+	Author="{IBM}"}
+
+@Manual{ibm:vs,Title="Intro to Virtual Storage in System/370",
+	note="(GR20-4260-1)",Author="{IBM}"}
+
+@Manual{ibm:vm,Title="Intro to VM/370",
+	Author="{IBM}"}
+
+@Manual{ibm:pofo,Title="IBM Enterprise Systems Architecture/370 -- Principles of Operation",
+	note="(SA22-7200-0)",year=1988,
+	Author="{IBM}"}
+
+@Manual{ibm:card,Title="System/370 Reference Summary",
+	note="(GX20-1850-5)",Author="{IBM}"}
+
+@manual{maclisp:catch,title="{MacLisp} Reference Manual",
+	author="David Moon",
+	year=1974,month=Apr,
+	organization="{M.I.T. Project MAC}",
+	address="Cambridge, Massachusetts"}
+
+@incollection{dijkstra:csp,title="Cooperating Sequential Processes",
+	author="E. W. Dijkstra",
+	editor="F. Genuys",
+	booktitle="Programming Languages",
+	publisher="Academic Press, Inc.",
+	address="New York",
+	pages={103--110},
+	year=1968}
+
+@Book{tanenbaum:minix,Title="Operating Systems: Design and Implementation",
+	Author="Andrew S. Tanenbaum", Publisher="Prentice-Hall", Year=1987,
+	Address=PH-addr}
+
+@Book{meyer:pl,Title="Introduction to the Theory of Programming Languages",
+	Author="Bertrand Meyer", Publisher="Prentice-Hall", Year=1990,
+	Address=PH-addr}
+
+@Book{friedman:pl,Title="Comparative Programming Languages: Generalizing the Programming Function",
+	Author="Linda Weiser Friedman", Publisher="Prentice-Hall", Year=1991,
+	Address=PH-addr}
+
+@Book{bach:unix,Title="The Design of the Unix Operating Systems",
+	Author="Maurice J. Bach", Publisher="Prentice-Hall", Year=1986,
+	isbn={0-13-201799-7},
+	Address=PH-addr}
+
+@Book{bentley:efficient,Title="Writing Efficient Programs",
+	Author="Jon Bentley", Publisher="Prentice-Hall", Year=1982,
+	Address=PH-addr}
+
+@Book{bentley:pearls,Title="Programming Pearls",
+	Author="Jon Bentley", Publisher="Addison-Wesley", Year=1986,
+	Address=AW-addr}
+
+@Book{bentley:morepearls,Title="More Programming Pearls",
+	Author="Jon Bentley", Publisher="Addison-Wesley", Year=1988,
+	Address=AW-addr}
+
+@Book{bentley:reliability,Title="Reliability and Quality Engineering",
+	Author="John P. Bentley", Publisher="Addison-Wesley", Year=1999, Edition=2,
+	Address=AW-addr}
+
+@Book{ramakumar:reliability,Title="Engineering Reliability: Fundamentals and Applications",
+	Author="R. Ramakumar", Publisher="Prentice-Hall", Year=1993,
+	Address=PH-addr}
+
+@Book{leemis:reliability,Title="Reliability: Probabilistic Models and Statistical Methods",
+	Author="Lawrence M. Leemis", Publisher="Prentice-Hall", Year=1995,
+	Address=PH-addr}
+
+@Book{sm:struct,Title="Data Structures: Form and Function",
+	Author="Harry F. Smith", Publisher="Harcourt-Brace-Jovanovich", Year=1987}
+@Book{pj:impl-functional,
+	Author="Peyton-Jones, Simon L.",
+	Title="The Implementation of Functional Programming Languages",
+	Publisher="Prentice-Hall International",
+	address=PH-addr,
+	year=1987,
+	Isbn="013453333X"
+}
+@Book{kr:cprog,Title="The C Programming Language", Edition="Second",
+	Author="Brian W. Kernighan and Dennis M. Ritchie",
+	Publisher="Prentice Hall", Year=1988, Address=PH-addr}
+
+@Book{kp:tools,Title="Software Tools",
+	Author="Brian W. Kernighan and P. J. Plauger", Publisher="Addison-Wesley",
+	Year=1976, Address=AW-addr}
+
+@Book{bo:unix,Title="The Unix System",Author="Bourne",
+	Publisher="Addison-Wesley", Year=1983}
+
+@Book{kp:environ,Title="The Unix Programming Environment",
+	Author="Brian W. Kernighan and Rob Pike",
+	Publisher="Prentice Hall", Year=1984,Address=PH-addr}
+
+@Book{wi:algor,Title="Algorithms and Data Structures",
+	Author="Niklaus Wirth", Publisher="Prentice Hall",Address=PH-addr,
+	Year=1986}
+
+@Book{sas:sicp,Title="Structure and Interpretation of Computer Programs",
+	Author="Sussman and Abelson and Sussman",
+	Publisher="MIT Press", address=MIT-addr,
+	Year=1985}
+
+@Book{ha:logo,Title="Computer Science Logo Style",Volume=3,
+	Author="Brian Harvey", Publisher="MIT Press", address=MIT-addr, Year=1985}
+
+@Book{vt:style,Title="Program Style, Design, Efficiency,Debugging and Testing",
+	Edition="Second",Author="Dennie van Tassel",
+	Publisher="Prentice Hall", Year=1978, Address=PH-addr}
+
+@Book{br:mmm,Title="The Mythical Man-month",Author="Brooks, III,Fredrick",
+	Publisher="Addison-Wesley", Year=1975, Address=AW-addr}
+
+@Book{kn:art,Title="The Art of Computer Programming (Vols 1,2,3)",
+	Author="Donald E. Knuth", Publisher="Addison-Wesley", Year=1968,
+	Address=AW-addr}
+
+@Book{kn:tex,Title="The {{\TeX}book}",
+	Author="Donald E. Knuth", Publisher="Addison-Wesley", Year=1986,
+	Address=AW-addr}
+ 
+@Book{an:prove,Title="Proving Programs Correct", Author="Anderson",
+	Publisher="Wiley", Address=W-addr, Year=1979,
+	ISBN="0-471-03395-2", call="QA76.6.A47"}
+
+@Book{baber:spine,Title="The Spine of Software (Designing Provably
+Correct Software: Theory and Practice)", Author="Robert L. Baber",
+	Publisher="Wiley", Address=W-addr, Year=1987, ISBN="0-471-91474-6"}
+
+@BOOK{ll:latex,
+   Author = "Leslie Lamport",
+   Title = "{\LaTeX \rm:} {A} Document Preparation System",
+   Publisher = "Addison-Wesley", Address=AW-addr,  Year = 1986 }
+
+@BOOK{strunk-and-white,
+   author = "Strunk, Jr., William and E. B. White",
+   title = "The Elements of Style",
+   publisher = "Macmillan",
+   edition = "Third",
+   year = 1979 }
+
+@BOOK{van-leunen,
+   title = "A Handbook for Scholars",
+   author = "Mary-Claire van Leunen",
+   publisher = "Knopf",
+   year = 1979 }
+@Book{hoare:os-techniques,
+   Editor="C. A. R. Hoare and R. M. Perrott",
+   Title="Operating Systems Techniques",
+   Publisher="Academic Press",
+   Address=AP-addr,
+   Year=1972}
+@book{shiva:arch,title="Computer Design and Architecture",
+	author="Sajjan G. Shiva",
+	year=1985,
+	publisher="Little, Brown \& Company",
+	address="Toronto"}
+@manual{sun:lwp,title="System Services Overview, Lightweight Processes",
+	author="{SUN}",
+	organization="Sun Microsystems",
+	year=1988,
+	month=May
+	}
+@manual{encore:pthreads,title="Encore Parallel Threads Manual",
+	author="{Encore}",
+	organization="Encore Computer",
+	year=1988,
+	month=May
+	}
+@book{sun:rpc,title="The {{\em Sun}T}echnology Papers",
+	editor="Mark Hall and John Barry",
+	year=1990,
+	publisher="Springer Verlag",
+	address="New York",
+	isbn={0-387-97145-9},
+	}
+
+@book{bsd-unix:design,
+	author =	{Samuel J. Leffler and Marshall K. McKusick and Michael J. Karels and John S. Quarterman},
+	year =		{1989},
+	publisher =	{Addison-Wesley Publishing Company},
+	keywords =	{bsd unix},
+	isbn =		{0-201-06196-1},
+	title =		{The Design and Implementation of the 4.3BSD UNIX Operating System}
+}
+@manual{apple:mac-overview,
+	key={Apple},
+	organization={Apple Computer},
+	title={Macintosh Overview}
+}
+@book{gordon:implementation,
+	title="Programming Language Theory and its Implementation",
+	author="Michael J. C. Gordon",
+	publisher="Prentice Hall International",
+	year=1988,
+	address=PH-addr,
+	isbn="0-13-730417-X"
+}
+@book{gries:science,
+	title="The Science of Programming",
+	author="David Gries",
+	publisher="Springer-Verlag",
+	year=1981,
+	address=SV-addr,
+	isbn="0-387-90641-X",
+	call="QA76.6.G747"
+}
+@book{milner:sml,
+	AUTHOR={Robin Milner and Mads Tofte and Robert Harper},
+	TITLE={The Definition of Standard ML},
+	address={Cambridge, Mass.},
+	publisher={MIT Press},
+	year=1990,
+	ISBN="0262132559"
+}
+@book{milner:sml-comment,
+	TITLE={Commentary on Standard ML},
+	author={Robin Milner and Mads Tofte},
+	address={Cambridge, Mass.},
+	publisher={MIT Press},
+	year=1991,
+	ISBN="0262132710"
+}
+@book{partsch:transform,
+	title="Specification and Transformation of Programs: A Formal Approach to Software Development",
+	author="Helmut A. Partsch",
+	publisher="Springer-Verlag",
+	year=1990,
+	address=SV-addr,
+	isbn="0-387-52356-1",
+	call="QA76.76.D47P37"
+}
+@book{reynolds:craft,
+	title="The Craft of Programming",
+	Author="John Reynolds",
+	publisher="Prentice Hall International",
+	year=1981,
+	address=PH-addr,
+	isbn="0-13-188862-5",
+	call="QA76.6.R47"
+}
+@book{verify:workshop,
+	title="Computer Aided Verification Workshop",
+	editor="R. P. Kurshan and E. M. Clarke",
+	publisher="American Mathematical Society",
+	address="Providence, Rhode Island, USA",
+	year=1991,
+	isbn="0-8218-6594-3"
+}
+@book{turner:recursion-equations,
+	author={D. A. Turner},
+	publisher={Cambridge University Press},
+	year=1982,
+	title={Recursion Equations as a Programming Language},
+	pages={1--28}
+}
+@Book{Anklam,
+	author="Anklam",
+	title="Engineering a Compiler",
+	publisher={Digital Press},
+	year=1982,
+	ISBN="0-932376-19-3"
+}
+@Book{fwh:prog-lang,
+	author="Daniel P. Friedman and Mitchell Wand and Christopher T. Haynes",
+	title="Essentials of Programming Languages",
+	publisher="McGraw-Hill",
+	address=MH-addr,
+	isbn="0-07-022443-9",
+	contributor="oz@sis.yorku.ca",
+	year=1992
+}
+@Book{sicp,
+	author="Harold Abelson and Gerald Jay Sussman and Julie Sussman",
+	title="Structure and Interpretation of Computer Programs",
+	publisher="MIT Press",
+	address=MIT-addr,
+	contributor="oz@sis.yorku.ca",
+	year=1985
+}
+@book{Sewell89,
+	author={Wayne Sewell},
+	title={Weaving a program: Literate Programming in {\tt WEB}},
+	publisher={Van Nostrand Reinhold},
+	year={1989},
+	ISBN={0-442-31946-0}
+}
+@book{Wilkes57,
+	author={Maurice Wilkes and David Wheeler and Stanley Gill},
+	title={The Preparation of Programs for an Electronic Digital Computer},
+	publisher="Addison-Wesley",
+	year=1957, edition="Second",
+	address=AW-addr,
+	ISBN="",
+	annote={A very early book that emphasizes the importance of
+		code reuse and careful program design.  The technology
+		is dated, but the principles are not.}
+}
+@book{HarveyWright1994,
+  author = 	"Brian Harvey and Matthew Wright",
+  title = 	"Simply Scheme: Introducing Computer Science",
+  publisher = 	"MIT Press",
+  year = 	"1994",
+  address = 	"Cambridge, Massachusetts, U.S.A.",
+  ISBN=		"0-262-08226-8"
+}
+@book{ml:schematics,
+  author = 	"Vincent Manis and James Little",
+  title = 	"The Schematics of Computation",
+  publisher = 	"Prentice-Hall",
+  year = 	"1995",
+  address = 	PH-addr,
+  ISBN=		"0-13-834284-9"
+}
+@book{d:scheme-lang,
+  author = 	"R. Kent Dybvig",
+  title = 	"The Scheme Programming Language",
+  edition =	"2nd",
+  publisher = 	"Prentice-Hall",
+  year = 	"1996",
+  address = 	PH-addr,
+  ISBN=		"0-13-454646-6"
+}
+@book{sf:scheme,
+  author = 	"George Springer and Daniel Friedman",
+  title = 	"Scheme and the Art of Programming",
+  publisher = 	"MIT Press",
+  year = 	"1989",
+  address = 	MIT-addr,
+  ISBN=		"0-262-19288-8"
+}
+@book{schemers,
+  author = 	"Iain Ferguson and Edward Martin and Burt Kaufman",
+  title = 	"The Schemer's Guide",
+  publisher = 	"Schemers Inc.",
+  year = 	"1990",
+  address = 	"Fort Lauderdale, FL, U.S.A.",
+  ISBN=		"0-9628745-7-4"
+}
+@book{Ullman94,
+  author = 	 "Jeffrey Ullman",
+  title = 	 "Elements of ML Programming",
+  publisher = 	 "Prentice-Hall",
+  year = 	 "1994",
+  address =	 "Englewood Cliffs, New Jersey, U.S.A.",
+  ISBN = 	 "0-13-184854-2"
+}
+
+@Book{Fraser:RCC95,
+     author =       "Chris W. Fraser and David R. Hanson",
+     title =        "A Retargetable {C} Compiler: Design and
+                    Implementation",
+     publisher =    BC,
+     address   =    BC-addr,
+     year =         "1995",
+     ISBN =         "0-8053-1670-1",
+     LCCN =         "QA76.73.C15F75 1995",
+     noted =         "Expected publication date: December 1994. From the
+                    authors' announcement: ``\ldots this book is an example
+                    of a `literate program.' Like {\em {\TeX}: The
+                    Program\/} by D. E. Knuth (Addison-Wesley, 1986), this
+                    book is lcc's source code and the prose that describes
+                    it. The code is presented in the order that best suits
+                    understanding, not in the order dictated by the C
+                    programming language. The source code that appears on
+                    the diskette is extracted automatically from the book's
+                    text files. \ldots{} The distribution is available via
+                    `anonymous' ftp from \path=ftp.cs.princeton.edu=
+                    \path=(128.112.152.13)= in the directory
+                    \path=pub/lcc=. \ldots{} Additional information about
+                    lcc and about our book is available on the WWW at URL
+                    \path=http://www.cs.princeton.edu/software/lcc=.''",
+     bibdate =      "Sat Oct 15 12:38:12 1994",
+   }
+@book{SPARC-v8,
+  author = 	 "{SPARC International}",
+  title = 	 "The {SPARC} Architecture Manual -- Version 8",
+  publisher = 	 "Prentice-Hall",
+  year = 	 1992,
+  address =	 PH-Addr,
+  ISBN = 	 "0-13-825001-4"
+}
+@book{ff:little-schemer,
+  author = "Daniel P. Friedman and Matthias Felleisen",
+  title = "The Little Schemer",
+  publisher = "MIT Press",
+  year = 1996,
+  address = MIT-Addr,
+  ISBN = "0-262-56099-2"
+}
+@book{ff:seasoned-schemer,
+  author = "Daniel P. Friedman and Matthias Felleisen",
+  title = "The Seasoned Schemer",
+  publisher = "MIT Press",
+  year = 1996,
+  address = MIT-Addr,
+  ISBN = "0-262-56100-X"
+}
+@book{nystrom:crafting-compilers,
+  author={Robert Nystrom},
+  title={Crafting Compilers},
+  publisher={Genever Benning},
+  year=2021,
+  isbn={0990582930},
+}@string{sigplan="Sigplan Notices"}
+
+@inproceedings{10.1145/3281287.3281295,
+author = {Miranda, Eliot and B\'{e}ra, Cl\'{e}ment and Boix, Elisa Gonzalez and Ingalls, Dan},
+title = {Two Decades of Smalltalk VM Development: Live VM Development through Simulation Tools},
+year = {2018},
+isbn = {9781450360715},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3281287.3281295},
+doi = {10.1145/3281287.3281295},
+abstract = {OpenSmalltalk-VM is a virtual machine (VM) for languages in the Smalltalk family (e.g. Squeak, Pharo) which is itself written in a subset of Smalltalk that can easily be translated to C. Development is done in Smalltalk, an activity we call “Simulation”. The production VM is derived by translating the core VM code to C. As a result, two execution models coexist: simulation, where the Smalltalk code is executed on top of a Smalltalk VM, and production, where the same code is compiled to an executable through a C compiler. In this paper, we detail the VM simulation infrastructure and we report our experience developing and debugging the garbage collector and the just-in-time compiler (JIT) within it. Then, we discuss how we use the simulation infrastructure to perform analysis on the runtime, directing some design decisions we have made to tune VM performance.},
+booktitle = {Proceedings of the 10th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages},
+pages = {57–66},
+numpages = {10},
+keywords = {live development, garbage collector, Just-in-Time compiler, virtual machine, tools, managed runtime},
+location = {Boston, MA, USA},
+series = {VMIL 2018}
+}
+
+@article{10.1145/3386335,
+author = {Ingalls, Daniel},
+title = {The Evolution of Smalltalk: From Smalltalk-72 through Squeak},
+year = {2020},
+issue_date = {June 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {HOPL},
+url = {https://doi.org/10.1145/3386335},
+doi = {10.1145/3386335},
+abstract = {This paper presents a personal view of the evolution of six generations of Smalltalk in which the author played a part, starting with Smalltalk-72 and progressing through Smalltalk-80 to Squeak and Etoys. It describes the forces that brought each generation into existence, the technical innovations that characterized it, and the growth in understanding of object-orientation and personal computing that emerged. It summarizes what that generation achieved and how it affected the future, both within the evolving group of developers and users, and in the outside world.  The early Smalltalks were not widely accessible because they ran only on proprietary Xerox hardware; because of this, few people have experience with these important historical artifacts. To make them accessible, the paper provides links to live simulations that can be run in present-day web browsers. These simulations offer the ability to run pre-defined scripts, but also allow the user to go off-script, browse the details of the implementation, and try anything that could be done in the original system. An appendix includes anecdotal and technical aspects of how examples of each generation of Smalltalk were recovered, and how order was teased out of chaos to the point that these old systems could be brought back to life.},
+journal = {Proc. ACM Program. Lang.},
+month = Jun,
+articleno = {85},
+numpages = {101},
+keywords = {Squeak, Bootstrap, Morphic, Bytecode, NoteTaker, BitBlt, Virtual Machine, Blocks, Alto, OOZE, EToys, Objects, Interpreter, Smalltalk}
+}
+@inproceedings{cousot-cousot:abstract,
+ author = {Patrick Cousot and Radhia Cousot},
+ title= {Inductive definitions, semantics and abstract interpretations},
+ booktitle = {Proceedings of the 19th ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+ year = {1992},
+ isbn = {0-89791-453-8},
+ pages = {83--94},
+ location = {Albuquerque, New Mexico, United States},
+ doi = {http://doi.acm.org/10.1145/143165.143184},
+ publisher = {ACM Press},
+ }
+
+
+@inproceedings{ghiya-hendren:pointer,
+ author = {Rakesh Ghiya and Laurie J. Hendren},
+ title= {Putting pointer analysis to work},
+ booktitle = {Proceedings of the 25th ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+ year = 1998,
+ mon = jan,
+ isbn = {0-89791-979-3},
+ pages = {121--133},
+ location = {San Diego, California, United States},
+ doi = {http://doi.acm.org/10.1145/268946.268957},
+ publisher = {ACM Press},
+ }
+@article{wilson:suif,
+	author="Robert P. Wilson and others",
+	title="{SUIF}: An Infrastructure for Research on Parallelizing
+		  and Optimizing Compilers",
+	journal=sigplan,
+	volume=29,
+	month=Dec,
+	year=1994,
+	pages="31--37"
+}
+@article{cdgjkn:modula3,
+	author="Luca Cardelli and James Donahue and Lucille Glassman
+		  and Mick Jordan and Bill Kaslow and Greg Nelson",
+	title="Modula-3 Language Definition",
+	journal=sigplan,
+	volume=27,
+        number=8,
+	pages={15-42},
+	month=Aug,
+	year=1992
+}
+@article{ast:fast-comp,
+	author="A. S. Tanenbaum and M. F. Kaashoek and K. G. Langendoen
+		and C. J. H. Jacobs",
+	title="The Design of Very Fast Portable Compilers",
+	journal=sigplan,
+	volume=24,
+	pages={125-131},
+	month=Nov,
+	year=1989
+}
+@article{ast:half,
+	author="A. S. Tanenbaum and E. G. Keizer and H. van Staveren",
+	title="Does Anybody Out There Want to Write HALF of a Compiler?",
+	journal=sigplan,
+	volume=19,
+	Number=8,
+	pages={106-108},
+	month=Aug,
+	year=1984
+}
+
+@inproceedings{Kranz:orbit,
+	crossref = "cc1986",
+	author =	"D. Kranz and R. Kelsey and J. Rees and P.
+			Hudak and J. Philbin and N. Adams",
+	pages =		"219--233",
+	title =		"Orbit: An Optimizing Compiler for {Scheme}"
+}
+@proceedings{cc1986,
+	title = "Conference Record of the 1986 {ACM} {SIGPLAN}
+			Symposium on Compiler Construction",
+	booktitle = "Conference Record of the 1986 {ACM} {SIGPLAN}
+			Symposium on Compiler Construction",
+	year =		1986,
+	pubaddress =	"New York",
+	publisher =	"Association for Computing Machinery"
+}
+@inproceedings{karr:coagulate,
+	crossref = "cc1984",
+	author =	"Michael Karr",
+	pages =		"1--12",
+	title =		"Code Generation by Coagulation",
+	annote=""
+}
+@inproceedings{AGHMP:exp-ggscg,
+	crossref = "cc1984",
+	author =	"Philippe Aigrain and Susan L. Graham and
+			Robert R. Henry and Marshall Kirk McKusick and
+			Eduardo Pelegri-Llopart",
+	pages =		"13--24",
+	title =		"Experience with a {Graham-Glanville} Style
+			Code Generator",
+	annote=""
+}
+@inproceedings{CHK:ggscg,
+	crossref = "cc1984",
+	author =	"Thomas W. Christopher and Philip J. Hatcher
+			and Ronald Kukuk",
+	pages =		"25--36",
+	title =		"Using Dynamic Programming to Generate
+			Optimized Code in a {Graham-Glanville} Style
+			Code Generator",
+	annote=""
+}
+@proceedings{cc1984,
+	title = "Conference Record of the 1984 {ACM} {SIGPLAN}
+			Symposium on Compiler Construction",
+	booktitle = "Conference Record of the 1984 {ACM} {SIGPLAN}
+			Symposium on Compiler Construction",
+	year =		1984,
+	journal="SIGPLAN Notices",
+	volume=19,
+	number=6,
+	month=Jun,
+	pubaddress =	"New York",
+	publisher =	"Association for Computing Machinery"
+}
+@inproceedings{cardelli:compiling,
+	crossref = "l&fp84",
+	author =	"Luca Cardelli",
+	pages =		"208--217",
+	title =		"Compiling a Functional Language"
+}
+@proceedings{l&fp84,
+	title	 = "Conference Record of the 1984 ACM Symposium on
+		Lisp and Functional Programming",
+	booktitle	 = "Conference Record of the 1984 ACM Symposium on
+		Lisp and Functional Programming",
+	year =		1984,
+	month =		"August",
+	address =	"Austin, Texas",
+	pubaddress =	"New York",
+	publisher =	"Association for Computing Machinery"
+}
+@inproceedings{cedar:structure,
+	crossref = "lipe85",
+	author =	"Daniel C. Swinehart and Polle T. Zellweger and Robert B. Hagmann",
+	pages =		"185--197",
+	title =		"The Structure of {Cedar}"
+}
+@proceedings{lipe85,
+	title	 = "Proceedings of the ACM Sigplan 85 Symposium on
+		Language Issues in Programming Environments",
+	booktitle	 = "Proceedings of the ACM Sigplan 85 Symposium on
+		Language Issues in Programming Environments",
+	year =		1985,
+	month =		"June",
+	address =	"Seatle, Washington",
+	pubaddress =	"New York",
+	publisher =	"Association for Computing Machinery"
+}
+@From{email:dswise,mail="dswise@iuvax.cs.indiana.edu (David S. Wise)"}
+@Article(16,
+Author="van Delft, A.J.E.",
+Title="Comments on Oberon",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="23-30")
+
+@Article(18,
+Author="Zhu, M.Y.",
+Title="AUTO STAR - A Software Development System",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="31-45")
+
+@Article(19,
+Author="Velazques Iturbide, J.A.",
+Title="Formalization of the Control Stack",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="46-54")
+
+@Article(20,
+Author="Sakkinen, M.",
+Title="How to Best Return the Value of a Function",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="55-56")
+
+@Article(21,
+Author="Atteson, K. and Lorenz, M. and Dowling, W.F.",
+Title="NARPL: A Soluation to the Student Compiler Project Problem",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="57-66")
+
+@Article(22,
+Author="Lieberherr, K.J. and Holland, I.",
+Title="Formulations and Benefits of the Law of Demeter",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="67-78")
+
+@Article(23,
+Author="Grogono, P.",
+Title="Comments, Assertions and Pragmas",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="79-84")
+
+@Article(24,
+Author="Jonsson, D.",
+Title="Next: The Elimination of Goto-Patches?",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="85-92")
+
+@Article(26,
+Author="Gabriel, Richard P.",
+Title="Draft Report on Requirments for a Common Prototyping System",
+Year=1989,
+Month=Mar,
+Journal="ACM SIGPLAN Notices",
+Number="3",
+Volume="24",
+Pages="93-95")
+
+@Article{Fraser91b,
+     author =       "Christopher W. Fraser and David R. Hanson",
+     title =        "A Retargetable Compiler for {ANSI} {C}",
+     journal =      sigplan,
+     volume =       "26",
+     number =       "10",
+     pages =        "29--43",
+     month =        oct,
+     year =         "1991",
+   }
+@Article{karr:lambda,
+     author =       "Michael Karr",
+     title =        "Compiling {C} to {$\lambda$-calculus}",
+     journal =      sigplan,
+     volume =       "31",
+     number =       "7",
+     pages =        "??--??",
+     month =        jul,
+     year =         "1996",
+   }
+
+@Article{Hudak:Jones:Wadler:acm:sigplan:1992,
+       author =       "P. Hudak and S. P. Jones and P. Wadler",
+       title =        "Report on the Programming Language Haskell",
+       journal =      sigplan,
+       volume =       "27",
+       number =       "5",
+       month =        may,
+       year =         "1992",
+       reffrom =      "Huelsbergen:Larus:acm:ppopp:1993",
+}
+
+
+@InProceedings{Swee85a,
+       author =       "R. E. Sweet",
+       title =        "The Mesa Programming Environment",
+       booktitle =    "Proceedings {ACM SIGPLAN '85 Symposium on Language
+                      Issues in Programming Environments}",
+       pages =        "216--229",
+       journal =      sigplan,
+       volume =       "20",
+       number =       "7",
+       month =        jul,
+       year =         "1985",
+       keywords =     "olit-oopl mesa",
+}
+@article{10.1145/989393.989425,
+author = {Chambers, Craig and Ungar, David},
+title = {A Retrospective on: "Customization: Optimizing Compiler Technology for Self, a Dynamically-Typed Object-Oriented Programming Language"},
+year = {2004},
+issue_date = {April 2004},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {4},
+issn = {0362-1340},
+url = {https://doi.org/10.1145/989393.989425},
+doi = {10.1145/989393.989425},
+abstract = {Dynamically-typed object-oriented languages please programmers, but their lack of static type information penalizes performance. Our new implementation techniques extract static type information from declaration-free programs. Our system compiles several copies of a given procedure, each customized for one receiver type, so that the type of the receiver is bound at compile time. The compiler predicts types that are statically unknown but likely, and inserts run-time type tests to verify its predictions. It splits calls, compiling a copy on each control path, optimized to the specific types on that path. Coupling these new techniques with compile-time message lookup, aggressive procedure inlining, and traditional optimizations has doubled the performance of dynamically-typed object-oriented languages.},
+journal = {SIGPLAN Not.},
+month = apr,
+pages = {295–312},
+numpages = {18}
+}
+@article{10.1145/62084.62086,
+author = {Johnson, Ralph E. and Graver, Justin O. and Zurawski, Laurance W.},
+title = {TS: An Optimizing Compiler for Smalltalk},
+year = {1988},
+issue_date = {Nov. 1988},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {23},
+number = {11},
+issn = {0362-1340},
+url = {https://doi.org/10.1145/62084.62086},
+doi = {10.1145/62084.62086},
+abstract = {TS (Typed Smalltalk) is a portable optimizing compiler that produces native machine code for a typed variant of Smalltalk, making Smalltalk programs much faster. This paper describes the structure of TS, the kinds of optimizations that it performs, the constraints that it places upon Smalltalk, the constraints placed upon it by an interactive programming environment, and its performance.},
+journal = {SIGPLAN Not.},
+month = jan,
+pages = {18–26},
+numpages = {9}
+}
+
+@inproceedings{Mason-2015-IWST,
+ author = {Mason, Dave},
+ title = {Performance from Aligning Smalltalk \& Javascript Classes},
+ booktitle = {Proceedings of the International Workshop on Smalltalk Technologies},
+ series = {IWST '15},
+ year = {2015},
+ location = {Brescia, Italy},
+ url = {http://dx.doi.org/10.1145/2811237.2811301},
+ doi = {10.1145/2811237.2811301},
+ acmid = {2811301},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+@inproceedings{Mason-2009-IWST,
+ author = {Mason, Dave},
+ title = {Smalltalk Metaprogramming supports Probabilistic Program Analysis},
+ booktitle = {Proceedings of the International Workshop on Smalltalk Technologies},
+ series = {IWST '09},
+ year = {2009},
+ location = {Brest, France},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+@inproceedings{Infante2018ExperienceIB,
+  title={Experience in Bridging Keras for Python with Pharo},
+  author={Alejandro Infante and Alexandre Bergel},
+  year={2018},
+booktitle = {Proceedings of the 13th Edition of the International Workshop on Smalltalk Technologies},
+location = {Cagliari, Sardinia},
+series = {IWST '18}
+}
+@inproceedings{Polito2019GildaVMAN,
+  title={GildaVM: a Non-Blocking I/O Architecture for the Cog VM},
+  author={Guillermo Polito and Pablo Tesone and Eliot Miranda and David Simmons},
+  year={2019},
+booktitle = {Proceedings of the 14th Edition of the International Workshop on Smalltalk Technologies},
+location = {Cologne, Germany},
+series = {IWST '19}
+}
